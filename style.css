@@ -1,0 +1,403 @@
+body{
+    background-attachment: fixed;
+    background: linear-gradient(rgba(20, 19, 19, 0.6),rgba(32, 30, 30, 0.6)), url(./img/FON0.jpg);
+   color: #fff;
+    background-size: cover;
+
+}
+
+.container_0{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-bottom: 20px;
+   
+   
+  
+} 
+.head_text_1{
+  font-size: 30px;
+  color: rgb(207, 56, 184);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media(max-width:1000px ){
+  .container_0{
+     display:block;
+  }
+}
+@media (max-width:820px) {
+  .container_0{
+    display:block;
+ }
+}
+
+@media (max-width:768px) {
+  .adress{
+    display: none;
+  }
+}
+@media (max-width:393px) {
+  .container_0{
+    display: block;
+  }
+  .head_text_1{
+    font-size: 15px;
+  }
+  .right .fa-instagram{
+    font-size: 25px;
+  }
+  .right .fa-whatsapp{
+    font-size: 25px;
+  }
+  .right .email{
+    font-size: 10px;
+  }
+}  
+
+.left{
+    display: flex;
+}
+.head-item-text{
+  color: #fff;
+}
+.right{
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo_1{
+   border: solid 1px black;
+   border-radius: 37px;
+   width: 75px;
+   margin-top: 25px;
+}
+.head_text{
+    display:inline-block;
+    width: 60%;
+}
+
+.fa-instagram {
+    width: 65px;
+    font-size: 45px;
+}
+.fa-whatsapp{
+    width: 65px;
+    font-size: 45px;
+    color: green;
+}
+.fa-instagram:hover{
+  /* font-size: 75px; */
+  transition: transform ease 1s;
+    transform: rotate(360deg);
+    color: rgb(236, 51, 103);
+}
+.tel,.email{
+    margin-right: 20px;
+}
+
+.adress{
+  color: #fff;
+}
+
+
+
+
+.foto{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+@media (max-width:501px) {
+  .foto{
+    display:inline-block;
+    margin-left: 50px;
+    
+  }
+  
+}
+.foto .foto_cart .baloon{
+  max-width: 100%;
+}
+.foto .foto_cart1 .baloon{
+  max-width: 100%;
+}
+.foto .foto_cart2 .baloon{
+  max-width: 100%;
+}
+.foto .foto_cart3 .baloon{
+  max-width: 100%;
+}
+.foto .foto_cart{
+  
+    text-align: center;
+  
+    background-color: rgb(46, 126, 166);
+    border-radius: 3%;
+}
+.foto .foto_cart1{
+   
+    text-align: center;
+  
+    background-color: rgb(146, 184, 227);
+    border-radius: 3%;
+
+}
+.foto .foto_cart2{
+  
+    text-align: center;
+   
+    background-color: rgb(226, 245, 17);
+    border-radius: 3%;
+
+}
+.foto .foto_cart3{
+   
+    text-align: center;
+   
+    background-color: rgb(123, 226, 32);
+    border-radius: 3%;
+
+}
+.foto .foto_cart:hover img{
+   
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: transform ease 2.5s;
+    
+}
+.baloon{
+    width: 250px;
+    height: 250px;
+}
+.tip{
+  font-size: 1.8em;
+  font-weight: 800;
+  color: #fff;
+}
+.bottom_text{
+    text-align: center;
+}
+.container_foot{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items:center;
+    justify-content:space-around;
+    background:#9b8fb1e6;
+    margin-bottom: 20px;
+}
+.fa-whatsapp{
+    margin-left: 10px;
+}
+.fa-whatsapp:hover{
+    /* font-size: 75px; */
+    transition: transform ease 1s;
+    transform: rotate(360deg);
+    color: rgb(15, 191, 38);
+}
+
+
+
+/* .swiper {
+    width: 90%;
+  
+  } */
+  .image-slider_image img{
+    width: 90%;
+  }
+  .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: rgb(56, 29, 194);
+  }
+  .swiper-slide{
+    text-align: center;
+  }
+
+.btn_1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.choose{
+  height: 33px;
+ 
+
+}
+  .add_bag{
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 17px;
+   
+  }
+ 
+.korzina{
+  display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+   
+   
+    height: 50px;
+}
+.cart_shop_1{
+  position: relative;
+  font-size:1.8em;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: #fff;
+}
+.cart_shop_item_1{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    overflow: auto;
+    display: none;
+    border:solid 1px #3c3c95;
+    background-color: aquamarine;
+    /* z-index: 2; */
+   
+    /* list-style-type: none; */
+} 
+.cart_shop_item_1 .baloon{
+  width: 150px;
+  height: 150px;
+}
+.cart_shop_item{
+  width: 160px;
+  height: 200px;
+}
+.cart_shop_1:hover .cart_shop_item_1{
+  display: block;
+  cursor: pointer;
+} 
+
+  .container_3{
+    display: flex;
+   
+    
+  }
+  .news{
+    background-color: rgb(240, 144, 17);
+  }
+  .categoria{
+    display: flex;
+    background-color: rgb(111, 156, 195);
+   
+    
+  } 
+  .future_product{
+   margin-left: 60px;
+  }
+  
+  .list{
+    list-style-type: none;
+    font-size: 1.2em;
+  }
+  .list_item1{
+    margin-bottom: 1.4em;
+  }
+  .list_item{
+    
+    color: white;
+    text-decoration: none;
+  }
+  
+
+ 
+  .new{
+    display: flex;
+    background-color: #fff;
+  }
+  .foto_cart_new .baloon{
+    width: 100%;
+  }
+  .news{
+    display:flex;
+    justify-content: center;
+    
+    color: white;
+    font-size:1.5em;
+    font-style: italic;
+  }
+  .new .foto_cart{
+   border: solid 1px rgb(202, 193, 193);
+  }
+  .add_bag{
+    margin-bottom: 20px;
+  }
+.container_4{
+    margin-top: 10px;
+    background-color: rgb(164, 124, 30);
+    display: flex;
+    justify-content:space-around;
+    
+}
+.container_4  .emaile, .tele{
+ color: #fff;
+}
+  h3{
+    color: #fff;
+   
+  }
+   @media (max-width:501px) {
+    .future_product .new{
+      display: block;
+      margin-left: -50px;
+    }
+    .container_4 .fa-instagram{
+      font-size: 25px;
+    }
+    .container_4 .fa-whatsapp{
+      font-size: 25px;
+    }
+    .container_4 .email{
+      font-size: 10px;
+      
+    }
+    .container_4 .tel{
+      font-size: 10px;
+      
+    }
+   }
+  
+   .choos_container{
+    display: block;
+    display: none;
+    /* opacity: 0; */
+    position: absolute;
+    z-index: 3;
+    border: solid 1px;
+    width: 75%;
+    margin-left: 100px;
+    margin-top: -222px;
+    background-color: rgb(144, 180, 108);
+   }
+   .choos_container.active{
+    display: block;
+   
+   }
+   .choos_1{
+    display: flex;
+    justify-content: space-between;
+   }
+   .choose:hover{
+    background-color: crimson;
+    
+   }
+  
+   .choos_container.active .choose{
+    position: absolute;
+    color:white;
+    background-color: rgb(244, 11, 11);
+    font-weight: 500;
+    
+  
+   }
